@@ -3,13 +3,12 @@
 We say our data is *consistent* if it satisfies constraints specified in the schema.
 These constraints are problem specific and ensure that we can perform meaningful analysis with the data.
 
+<img src=data.png width=300px>
+
 In this lab, we will investigate how well SQLite, Postgres, and MySQL maintain the consistency of data.
 You will see that in SQLite and MySQL it is easy to get inconsistent data,
 but Postgres does a better job maintaining consistency.
-
 For this reason, I consider Postgres to be the best choice of database for new projects.
-
-<img src=data.png width=300px>
 
 ## Populating the Databases
 
