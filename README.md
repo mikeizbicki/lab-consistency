@@ -118,7 +118,9 @@ mysql> SELECT count(*) FROM transactions;
 ```
 
 Notice above that the incantation to connect to mysql is a bit more complicated than the incantation to connect to postgres.
-This is because the default postgres docker images specify 
+This is because the default postgres docker images specify how `psql` should connect to the postgres database,
+but the default mysql docker images do not.
+These extra command line arguments to `mysql` are specifying this information.
 
 ### Notice!
 
