@@ -404,7 +404,11 @@ INSERT INTO transactions VALUES (201, 1000, 1001, 50.0);
 If the first command succeeds and the second fails, then the database enforces the constraint and you should write "Yes" in the table.
 If both commands succeed, then the database does not enforce the constraint and you should write "No" in the table.
 
+<!--
+Some databases just like to see your data burn.
+
 <img src=fire.png width=400px />
+-->
 
 ## Submission
 
