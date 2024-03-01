@@ -208,7 +208,7 @@ Modify the SQL query above so that the total number of transactions that each ac
 (You will have to submit this query as part of the lab submission later.)
 
 > **Hint:**
-> You will need to use the command `DROP VIEW balances` to delete the view in order to redefine it.
+> You will need to use the command `DROP VIEW balances;` to delete the view in order to redefine it.
 
 > **Hint:**
 > If you've re-defined the `balances` view correctly, you should get the following output.
@@ -282,7 +282,7 @@ NUMERIC is a [fixed precision](https://en.wikipedia.org/wiki/Fixed-point_arithme
 This type is more accurate than the [IEEE754 floating point numbers](https://en.wikipedia.org/wiki/IEEE_754) used in standard programming languages like python.
 The downside is that it is slower.
 
-Out database is structured to use a double-entry bookkeeping system,
+Our database is structured to use a double-entry bookkeeping system,
 so that the sum of all balances should be 0.
 That is the SQL query
 ```
