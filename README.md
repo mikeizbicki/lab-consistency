@@ -301,7 +301,7 @@ For the small number of transactions in our table, the rounding errors will be n
 But real financial systems can have billions of transactions,
 and small errors quickly add up.
 Bitcoin exchanges, for example, are infamous for bad practices around storing money,
-and [at least one exchange has lost money due to using floating point number to represnt money in their database](https://news.ycombinator.com/item?id=13784755).
+and [at least one exchange has lost money due to using floating point number to represent money in their database](https://news.ycombinator.com/item?id=13784755).
 
 <img src=penny.jpg width=400px />
 
