@@ -414,7 +414,7 @@ Some databases just like to see your data burn.
 
 ## Submission
 
-Submit to sakai:
+Submit to canvas:
 
 1. the SQL query you completed in Task 1 to create the modified `balances` VIEW
 2. the completed table of consistency checks
