@@ -278,7 +278,7 @@ CREATE TABLE transactions (
 
 ```
 This is the standard type for representing money in SQL.
-NUMERIC is a [fixed precision](https://en.wikipedia.org/wiki/Fixed-point_arithmetic) number representation (in this case with 10 digits before the decimal and 2 digits after).
+NUMERIC is a [fixed precision](https://en.wikipedia.org/wiki/Fixed-point_arithmetic) number representation (in this case with 10 digits total, 2 of which are after the decimal).
 This type is more accurate than the [IEEE754 floating point numbers](https://en.wikipedia.org/wiki/IEEE_754) used in standard programming languages like python.
 The downside is that it is slower.
 
